@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+<extension version="3.0" type="template" client="site" method="upgrade">
+  <name>tpl_modelo</name>
+  <version>1.0</version>
+  <creationDate>Outubro de 2017</creationDate>
+  <author>Ribamar FS</author>
+  <authorEmail>ribafs@tutamail.com</authorEmail>
+  <copyright>Copyright (C) 2017 Ribamar FS</copyright>
+  <description>
+		&lt;h2&gt;Template Modelo - Adaptado do template oficial protostart&lt;/h2&gt;
+		&lt;h4&gt;Version: 1.0&lt;/h4&gt;
+		&lt;hr /&gt;
+		&lt;h4&gt;&lt;a href="http://ribafs.org" target="_blank"&gt;ribafs.org&lt;/a&gt;&lt;br /&gt;
+		&lt;hr /&gt;
+		&lt;img src="../templates/tpl_modelo/template_thumbnail.png" style="float:left; padding:10px 10px 10px 0;" /&gt;
+		&lt;hr /&gt;
+		&lt;hr /&gt;
+        &lt;h2&gt;Posições:&lt;h2&gt;
+		&lt;hr /&gt;
+        &lt;h4&gt;logo(12)&lt;/h4&gt;
+		&lt;hr /&gt;
+        &lt;h4&gt;top_menu(12)&lt;/h4&gt;
+		&lt;hr /&gt;
+        &lt;h4&gt;breadcrumbs(9)     search(3)&lt;/h4&gt;
+		&lt;hr /&gt;
+        &lt;h4&gt;portfolio(12)&lt;/h4&gt;
+		&lt;hr /&gt;
+        &lt;h4&gt;novidades(6)   populares(6)&lt;/h4&gt;
+		&lt;hr /&gt;
+        &lt;h4&gt;left(3)     component(6)    right(3)&lt;/h4&gt;
+		&lt;hr /&gt;          
+        &lt;h4&gt;footer(12)&lt;/h4&gt;
+  </description>
+  <files>
+    <filename>index.php</filename>
+    <filename>index.html</filename>
+    <filename>leiame.txt</filename>
+    <filename>component.php</filename>
+    <filename>error.php</filename>
+    <filename>favicon.ico</filename>
+    <filename>offline.php</filename>
+    <filename>template_preview.png</filename>
+    <filename>template_thumbnail.png</filename>
+    <folder>css</folder>
+    <folder>js</folder>
+    <folder>images</folder>
+    <folder>html</folder>
+  </files>
+	<positions>
+		<position>position-0</position>
+		<position>position-1</position>
+		<position>banner</position>
+
+		<position>position-8</position>
+		<position>position-3</position>
+		<position>position-7</position>
+        <!-- message e component -->
+		<position>position-2</position>
+
+		<position>footer</position>
+		<position>debug</position>
+	</positions>
+	<config>
+		<fields name="params">
+			<fieldset name="advanced">
+				<field 
+					name="templateColor" 
+					type="color" 
+					label="Cor da fonte"
+					description="Cor da fonte do título" 
+					class="" 
+					default="#9bc7b3"
+				/>
+
+				<field 
+					name="templateBackgroundColor" 
+					type="color" 
+					label="Cor de fundo"
+					description="Cor de fundo do título" 
+					class="" 
+					default="#e2e7f0"
+				/>
+
+				<field 
+					name="logoFile" 
+					type="media" 
+					label="Logo"
+					description="Arquivo da logomarca" 
+					class="" 
+					default=""
+				/>
+				<field 
+					name="sitetitle"  
+					type="text" 
+					label="Título"
+					description="Título do Site"
+					default="Template Modelo"
+					filter="string" 
+				/>
+				<field 
+					name="sitedescription"  
+					type="text" 
+					label="JGLOBAL_DESCRIPTION"
+					description="JGLOBAL_SUBHEADING_DESC"
+					default="Site usando o template modelo dos cursos online - RibaFS Cursos Online"
+					filter="string" 
+				/>
+
+            </fieldset>
+        </fields>
+    </config>
+</extension>
