@@ -1,7 +1,4 @@
-## Adaptação do template protostar do Joomla 3
-
-# Dizendo não para o lado negro da força (MS) mudei para o GitLab. Manterei os arquivos aqui em respeito aos usuários e ao antigo GitHub mas estarei atualizando somente no GitLab daqui pra frente.
-https://gitlab.com/ribafs/tpl_modelo
+# Adaptação do template protostar do Joomla 3
 
 O protostart é um template aparentemente simples mas cheio de bons recursos.
 
